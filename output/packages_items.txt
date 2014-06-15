@@ -1,0 +1,482 @@
+[AVAILABLE PACKAGES]
+
+0 Additional Products
+10 Control Panels for VPS
+21 Single Developer Special - AMD
+32 Quad Processor, Quad Core Intel
+35 Dual Xeon (Dual Core) Woodcrest/Cloverton - OUTLET
+39 Dual Xeon (Dual Core) Woodcrest/Cloverton - OUTLET
+41 Single Xeon 5500 Series (Nehalem)
+42 Dual Xeon 5500 Series (Nehalem)
+43 Specialty Server: Redundant Power: Xeon 5500 (Nehalem) Series
+44 Specialty Server: Mass Storage: Xeon 5500 (Nehalem) Series
+46 Cloud Server
+49 Specialty Server: 4u Redundant power Xeon 5500 (Nehalem) Series
+50 Bare Metal Instance
+51 Single Xeon 3400 Series (Lynnfield)
+52 Specialty Server: 4u Mass Storage Xeon 5500 (Nehalem) Series
+53 Specialty Server: Private Network: Single Xeon 3400 Series (Lynnfield)
+54 Specialty Server: Private Network: Dual Xeon 5500 Series (Nehalem)
+55 Specialty Server: Private Network & Redundant Power: Xeon 5500 (Nehalem) Series
+56 Quad Processor Multi Core Nehalem EX
+58 Colocation Service
+60 ThePlanet Legacy Placeholder Package
+61 Virtual Rack MD3000i SAN - HA
+62 PC Dual Xeon 5130 - SATA
+63 PC Dual Xeon 5130 - SAS
+64 PR Dual Xeon 5520 - SATA
+65 Virtual Rack Xeon 3210 - SAS
+66 Virtual Rack Dual Xeon 5335 - SAS
+67 PR Dual Xeon 5520 - SAS
+68 PR Dual Xeon 5620 - SATA
+69 PR Dual Xeon 5620 - SAS
+70 Virtual Rack Dual Xeon 5620 - SATA
+71 Virtual Rack Dual Xeon 5620 - SAS
+72 PC Dual Xeon 5620 - SATA
+73 PC Dual Xeon 5620 - SAS
+74 Virtual Rack Dual Xeon 5660 - SATA
+75 Virtual Rack Dual Xeon 5660 - SAS
+76 PC Dual Xeon 5660 - SATA
+77 PC Dual Xeon 5660 - SAS
+78 Virtual Rack Quad Xeon 7550 - SAS
+79 PC Quad Xeon 7550 - SAS
+80 PR Xeon 3450 - SATA
+81 PR Xeon 3450 - SAS
+82 Virtual Rack Pentium G6950 - SATA
+83 PC Pentium G6950 - SATA
+84 Virtual Rack MD1000 DAS
+85 Virtual Rack MD3000 DAS
+86 Virtual Rack MD3000 DAS - HA
+87 PR Dual Xeon 5130 - SATA
+88 PR Dual Xeon 5130 - SAS
+89 PR Dual Xeon 5335 - SAS
+90 PR Xeon 3060 - SATA
+91 PR Xeon 3060 - SAS
+92 PR Xeon 3210 - SATA
+93 PR Xeon 3210 - SAS
+94 PC Dual Xeon 5335 - SATA
+95 PC Dual Xeon 5335 - SAS
+96 PC Dual Xeon 5405 - SATA
+97 PC Dual Xeon 5405 - SAS
+98 PC Dual Xeon 5405 - Monster
+99 PC Xeon 3360 - SATA
+100 PC Xeon 3360 - SAS
+101 PC Dual Xeon 5450 - SATA
+102 PC Dual Xeon 5450 - SAS
+103 PR Xeon 3040 - SATA
+104 PC Xeon 3210 - SATA
+105 PC Xeon 3210 - SAS
+106 PR Dual Xeon 5335 - SATA
+107 Virtual Rack Xeon 3360 - SATA
+108 Virtual Rack Xeon 3360 - SAS
+109 Virtual Rack Dual Xeon 5450 - SATA
+110 Virtual Rack Dual Xeon 5450 - SAS
+111 Virtual Rack Xeon 3210 - SATA
+112 Virtual Rack Dual Xeon 5130 - SATA
+113 Virtual Rack Dual Xeon 5335 - SATA
+114 Virtual Rack Dual Xeon 5130 - SAS
+115 Virtual Rack Dual Xeon 5405 - SAS
+116 Virtual Rack Dual Xeon 5405 - SATA
+117 Virtual Rack Dual Xeon 5405 - Monster
+118 PC Dual Xeon 5520 - SATA
+119 PC Dual Xeon 5520 - SAS
+120 Virtual Rack Dual Xeon 5520 - SATA
+121 Virtual Rack Dual Xeon 5520 - SAS
+122 PC Xeon 3450 - SATA
+123 PC Xeon 3450 - SAS
+124 Virtual Rack Xeon 3450 - SATA
+125 Virtual Rack Xeon 3450 - SAS
+126 Single Xeon 1200 Series (Sandy Bridge / Haswell)
+130 Cloud Server (Simplified)
+132 Virtual Rack Quad Xeon 7450 - SAS
+135 RightScale XS CCI
+136 RightScale SM CCI
+137 RightScale MD CCI
+138 RightScale LG CCI
+139 RightScale XL CCI
+140 Specialty Server: Mass Storage: QuantaStor
+141 Specialty Server: 4u Mass Storage: QuantaStor
+142 Single Xeon 2000 Series (Sandy Bridge)
+143 Dual Xeon 2000 Series (Sandy Bridge)
+144 Specialty Server: GPU
+145 Intel Xeon 3460
+146 Sandy Bridge 1270
+147 Specialty Server: 4u Mass Storage Dual Xeon 2000 (Sandy Bridge) Series
+148 Specialty Server: 2u Mass Storage Dual Xeon 2000 (Sandy Bridge) Series
+151 CloudPlatform Management Server
+152 Host Server (1U / 2Proc)
+153 Host Server (2U / 2Proc)
+154 Host Server (2U / 4Proc)
+155 Small
+157 Large
+158 Quad Xeon 4000 Series (Sandy Bridge)
+159 n x n MongoDB Replica Set
+160 Medium
+161 RightScale MD (High Mem) CCI
+162 ScaleRight LG (High Mem) Private CCI
+163 ScaleRight XS Private CCI
+164 ScaleRight SM Private CCI
+165 ScaleRight MD Private CCI
+166 ScaleRight LG Private CCI
+168 RightScale LG (High Mem) CCI
+169 ScaleRight MD (High Mem) Private CCI
+170 Riak Solution
+171 RIAK: Small
+172 RIAK: Medium
+173 VHD Import
+174 Network Gateway Appliance
+175 Private Cloud Solution
+176 Cloudera Hadoop Solution
+177 CLOUDERA: Manager
+178 CLOUDERA: Process Node
+179 CLOUDERA: Storage Node 2U
+180 CLOUDERA: Storage Node 4U
+192 Application Delivery Appliance
+194 Load Balancers
+196 Network Gateway Appliance Cluster
+198 Portable Storage
+200 Bare Metal Server
+206 Object Storage
+208 Content Delivery Network
+210 SSL Certificate
+212 Message Queue
+216 Network Attached Storage
+218 iSCSI Storage
+[REQUIRED ITEMS]
+
+81 First Disk
+80 Computing Instance
+12 Operating System
+20 Monitoring
+3 RAM
+21 Notification
+46 Remote Management
+26 Uplink Port Speeds
+22 Response
+10 Public Bandwidth
+13 Primary IP Addresses
+31 VPN Management - Private Network
+32 Vulnerability Assessments & Management
+[LOCATIONS]
+
+dal01 3
+sea01 18171
+wdc01 37473
+dal05 138124
+dal06 154820
+sjc01 168642
+sng01 224092
+ams01 265592
+hkg02 352494
+[ITEM PRICES]
+
+4547 Windows Server 2012 R2 Datacenter Edition (64bit) 
+1046 Private 2 x 2.0 GHz Cores 
+4147 Microsoft SQL Server 2012 Web Edition 
+3899 100 GB (LOCAL) 
+498 1 Gbps Private Network Uplink 
+497 100 Mbps Private Network Uplink 
+4408 Debian GNU/Linux 7.x Wheezy/Stable - LAMP Install (32 bit) 
+1209 12 GB 
+4288 Vyatta 6.5 Community Edition (64 bit) 
+1198 12 x 2.0 GHz Cores 
+518 Sitebuilder - Windows 
+496 10 Mbps Private Network Uplink 
+922 100 GB (SAN) 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+1225 300 GB (SAN) 
+1231 1,500 GB (SAN) 
+863 4 GB 
+1305 Parallels Plesk Panel 10 (Linux) 100 Domain w/ Power Pack 
+186 10 Mbps Public & Private Network Uplinks 
+81 Microsoft SQL Server 2005 Enterprise 
+50 Host Ping and TCP Service Monitoring 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+3839 Red Hat Enterprise Linux 6 - Minimal Install (64 bit) 
+26 100 Mbps Public Uplink 
+4610 cPanel/WHM with Softaculous and RVskin  
+4147 Microsoft SQL Server 2012 Web Edition 
+4298 VMware vCenter 5.1 Standard 
+423 Windows Server 2003 Enterprise SP2 with R2 (32 bit) 
+3898 Microsoft WebMatrix 
+4410 Debian GNU/Linux 7.x Wheezy/Stable - Minimal Install (32 bit) 
+4354 Riak Enterprise 1.3.0 
+745 Virtuozzo Containers 4 for Linux - 100 VPS 
+1165 Microsoft SQL Server 2008 Enterprise R2 
+422 Windows Server 2003 Standard SP2 with R2 (64 bit) 
+875 CentOS 5.x - Minimal Install (32 bit) 
+302 McAfee Host Intrusion Protection w/Reporting 
+3876 100 GB (LOCAL) 
+4147 Microsoft SQL Server 2012 Web Edition 
+84 Business Continuance Insurance 
+1076 60GB EVault Disk to Disk Enterprise Backup 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+188 1 Gbps Public & Private Network Uplinks 
+743 Virtuozzo Containers 4 for Linux - 50 VPS 
+421 Windows Server 2003 Standard SP2 with R2 (32 bit) 
+3906 CentOS 6.x - LAMP Install (32 bit) 
+562 500GB EVault Disk to Disk Enterprise Backup 
+3837 Red Hat Enterprise Linux 6 - Minimal Install (32 bit) 
+47 100 Mbps Private Uplink 
+977 Windows Server 2008 R2 Standard Edition (64bit) 
+173 5000 GB Bandwidth 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+4248 Windows Server 2008 Standard SP1 with R2 (64 bit) 
+1178 25 GB (SAN) 
+4390 Storage Backend Upgrade 
+4147 Microsoft SQL Server 2012 Web Edition 
+4148 Microsoft SQL Server 2012 Standard Edition 
+1155 32 GB 
+1163 Microsoft SQL Server 2008 Web R2 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+1250 Monitoring Package - Premium Application 
+41 40 GB NAS 
+4662 Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (32 bit) 
+882 Red Hat Enterprise Linux 5 - LAMP Install (64 bit) 
+4147 Microsoft SQL Server 2012 Web Edition 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+4152 Idera Server Backup 3.0 Enterprise (Windows) 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+1145 Ubuntu Linux 10.04 LTS Lucid Lynx - LAMP Install (64 bit) 
+741 Virtuozzo Containers 4 for Linux - 10 VPS 
+46 10 Mbps Private Uplink 
+3976 Debian GNU/Linux 6.x Squeeze/Stable - Minimal Install (64 bit) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+940 Windows Server 2008 Datacenter Edition SP2 (64bit) 
+4154 Idera Disk Agent 5 Pack 
+4173 Ubuntu Linux 12.04 LTS Precise Pangolin - Minimal Install (32 bit) 
+1220 125 GB (SAN) 
+42 80 GB NAS 
+559 40GB EVault Disk to Disk Enterprise Backup 
+3833 Red Hat Enterprise Linux 6 - LAMP Install (32 bit) 
+1161 Microsoft SQL Server 2008 Standard R2 
+4148 Microsoft SQL Server 2012 Standard Edition 
+742 Virtuozzo Containers 4 for Linux - 30 VPS 
+30 Unlimited Bandwidth (10 Mbps Uplink) 
+1248 Monitoring Package - Basic 
+938 Windows Server 2008 Enterprise Edition SP2 (64bit) 
+4199 Parallels Plesk Panel 11 (Windows) 100 Domain w/ Power Pack 
+4348 Idera Backup Agent 25 Pack 
+746 Virtuozzo Containers 4 for Linux - 150 VPS 
+1249 Monitoring Package - Advanced 
+883 Ubuntu Linux 8 LTS Hardy Heron - Minimal Install (32 bit) 
+1162 Microsoft SQL Server 2008 Express R2 
+439 0 GB Bandwidth 
+27 1 Gbps Public Uplink 
+889 Debian GNU/Linux 5.x Lenny/Stable - LAMP Install (32 bit) 
+4195 Parallels Plesk Panel 11 (Linux) 100 Domain w/ Power Pack 
+4148 Microsoft SQL Server 2012 Standard Edition 
+4088 CloudLinux 6.x (32 bit) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+4185 1500GB EVault Disk to Disk Enterprise Backup 
+937 Windows Server 2008 Enterprise Edition SP2 (32bit) 
+101 8000 GB Bandwidth 
+4147 Microsoft SQL Server 2012 Web Edition 
+23 MySQL 5.0 for Windows 
+22 MySQL for Linux 
+3784 50GB EVault Disk to Disk Enterprise Backup 
+3973 Debian GNU/Linux 6.x Squeeze/Stable - LAMP Install (32 bit) 
+4147 Microsoft SQL Server 2012 Web Edition 
+4666 Ubuntu Linux 14.04 LTS Trusty Tahr - Minimal Install (32 bit) 
+54 NOC Monitoring 
+4347 Idera Backup Agent 10 Pack 
+862 2 GB 
+563 1000GB EVault Disk to Disk Enterprise Backup 
+4148 Microsoft SQL Server 2012 Standard Edition 
+928 cPanel/WHM with Fantastico and RVskin 
+882 Red Hat Enterprise Linux 5 - LAMP Install (64 bit) 
+4233 Windows Server 2012 Standard Edition (64 bit) 
+299 10Mbps Hardware Firewall 
+297 1000Mbps Hardware Firewall 
+4147 Microsoft SQL Server 2012 Web Edition 
+4148 Microsoft SQL Server 2012 Standard Edition 
+4411 Debian GNU/Linux 7.x Wheezy/Stable - Minimal Install (64 bit) 
+1204 6 GB 
+879 Red Hat Enterprise Linux 5 - Minimal Install (32 bit) 
+880 Red Hat Enterprise Linux 5 - Minimal Install (64 bit) 
+424 Windows Server 2003 Enterprise SP2 with R2 (64 bit) 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+558 20GB EVault Disk to Disk Enterprise Backup 
+495 Microsoft Windows Firewall 
+4147 Microsoft SQL Server 2012 Web Edition 
+3785 Parallels Plesk Panel 10 (Windows) Unlimited Domain w/ Power Pack 
+1214 20 GB (SAN) 
+300 APF Software Firewall for Linux 
+4346 Idera Backup Agent 5 Pack 
+4200 Parallels Plesk Panel 11 (Windows) Unlimited Domain w/ Power Pack 
+861 1 GB 
+4147 Microsoft SQL Server 2012 Web Edition 
+738 Virtuozzo Containers 4 for Linux - 3 VPS 
+3905 CentOS 6.x - Minimal Install (32 bit) 
+1251 Apache Monitoring Agent 
+4496 Vyatta 6.6 Community Edition (64 bit) 
+1229 750 GB (SAN) 
+955 2000GB EVault Disk to Disk Enterprise Backup 
+25 10 Mbps Public Uplink 
+4147 Microsoft SQL Server 2012 Web Edition 
+16 4 Public IP Addresses 
+1216 30 GB (SAN) 
+744 Virtuozzo Containers 4 for Linux - 70 VPS 
+3974 Debian GNU/Linux 6.x Squeeze/Stable - Minimal Install (32 bit) 
+3837 Red Hat Enterprise Linux 6 - Minimal Install (32 bit) 
+4469 1 GB NAS 
+560 100GB EVault Disk to Disk Enterprise Backup 
+1223 200 GB (SAN) 
+784 /64 Block Static Public IPv6 Addresses 
+979 Windows Server 2008 R2 Datacenter Edition (64bit) 
+3889 200 GB (LOCAL) 
+4147 Microsoft SQL Server 2012 Web Edition 
+4150 Microsoft SQL Server 2012 Express Edition 
+4184 750GB EVault Disk to Disk Enterprise Backup 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+4147 Microsoft SQL Server 2012 Web Edition 
+1194 16 x 2.0 GHz Cores 
+4091 CloudLinux 5.x (64 bit) 
+4345 Idera Backup Agent 1 Pack 
+4147 Microsoft SQL Server 2012 Web Edition 
+3835 Red Hat Enterprise Linux 6 - LAMP Install (64 bit) 
+682 Microsoft SQL Server 2008 Enterprise 
+4327 Riak 1.x 
+1327 Remote Network Connection Monitoring Agent 
+4148 Microsoft SQL Server 2012 Standard Edition 
+503 Reboot / Remote Console 
+24 Microsoft SQL Server 2005 Express 
+1138 Ubuntu Linux 10.04 LTS Lucid Lynx - Minimal Install (32 bit) 
+4183 350GB EVault Disk to Disk Enterprise Backup 
+947 Account Setup Fee 
+4172 Ubuntu Linux 12.04 LTS Precise Pangolin - LAMP Install (64 bit) 
+51 Email and Ticket 
+685 Microsoft SQL Server 2008 Web 
+881 Red Hat Enterprise Linux 5 - LAMP Install (32 bit) 
+916 500 GB (SAN) 
+4147 Microsoft SQL Server 2012 Web Edition 
+4481 0 GB Bandwidth 
+4090 CloudLinux 5.x (32 bit) 
+15 1 IP Address 
+4557 MySQL 5.0.51 for Windows 
+1213 10 GB (SAN) 
+53 Automated Reboot from Monitoring 
+1144 Ubuntu Linux 10.04 LTS Lucid Lynx - LAMP Install (32 bit) 
+3955 International Services 
+80 Microsoft SQL Server 2005 Workgroup 
+881 Red Hat Enterprise Linux 5 - LAMP Install (32 bit) 
+866 250 GB (SAN) 
+43 100 GB NAS 
+3953 150 GB (LOCAL) 
+939 Windows Server 2008 Datacenter Edition SP2 (32bit) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+1045 Private 1 x 2.0 GHz Core 
+303 McAfee Total Protection - Windows 
+1140 Ubuntu Linux 10.04 LTS Lucid Lynx - Minimal Install (64 bit) 
+936 Windows Server 2008 Standard Edition SP2 (64bit) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+3833 Red Hat Enterprise Linux 6 - LAMP Install (32 bit) 
+44 250 GB NAS 
+4148 Microsoft SQL Server 2012 Standard Edition 
+4237 Windows Server 2012 Datacenter Edition (64bit) 
+860 8 x 2.0 GHz Cores 
+4385 25 GB (LOCAL) 
+97 Unlimited Bandwidth (100 Mbps Uplink) 
+49 Host Ping 
+298 100Mbps Hardware Firewall 
+886 Ubuntu Linux 8 LTS Hardy Heron - LAMP Install (64 bit) 
+1047 Private 4 x 2.0 GHz Cores 
+888 Debian GNU/Linux 5.x Lenny/Stable - Minimal Install (64 bit) 
+102 10000 GB Bandwidth 
+681 Microsoft SQL Server 2008 Express 
+1226 350 GB (SAN) 
+4089 CloudLinux 6.x (64 bit) 
+890 Debian GNU/Linux 5.x Lenny/Stable - LAMP Install (64 bit) 
+3975 Debian GNU/Linux 6.x Squeeze/Stable - LAMP Install (64 bit) 
+878 CentOS 5.x - LAMP Install (64 bit) 
+4182 175GB EVault Disk to Disk Enterprise Backup 
+1306 Parallels Plesk Panel 10 (Linux) Unlimited Domain w/ Power Pack 
+876 CentOS 5.x - Minimal Install (64 bit) 
+307 Nessus Vulnerability Assessment & Reporting 
+864 8 GB 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+683 Microsoft SQL Server 2008 Standard 
+4148 Microsoft SQL Server 2012 Standard Edition 
+611 500 GB NAS 
+4344 Idera Server Backup 5.0 Enterprise (Windows) 
+859 4 x 2.0 GHz Cores 
+4551 200Mbps Hardware Firewall 
+309 Unlimited SSL VPN Users & 1 PPTP VPN User per account 
+4664 Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (64 bit) 
+4468 48 GB 
+1232 2,000 GB (SAN) 
+4226 MongoDB 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+4550 20Mbps Hardware Firewall 
+858 2 x 2.0 GHz Cores 
+3909 CentOS 6.x - LAMP Install (64 bit) 
+879 Red Hat Enterprise Linux 5 - Minimal Install (32 bit) 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+739 30GB EVault Disk to Disk Enterprise Backup 
+857 1 x 2.0 GHz Core 
+100 6000 GB Bandwidth 
+3890 300 GB (LOCAL) 
+3891 25 GB (LOCAL) 
+920 Windows Server 2003 Datacenter SP2 with R2 (32 bit) 
+3839 Red Hat Enterprise Linux 6 - Minimal Install (64 bit) 
+17 8 Public IP Addresses 
+4156 Idera Disk Agent 25 Pack 
+1227 400 GB (SAN) 
+4147 Microsoft SQL Server 2012 Web Edition 
+4343 Idera Server Backup 5.0 Enterprise (Linux) 
+884 Ubuntu Linux 8 LTS Hardy Heron - Minimal Install (64 bit) 
+4097 1 IPv6 Address 
+1017 16 GB 
+79 Microsoft SQL Server 2005 Standard 
+1164 Microsoft SQL Server 2008 Workgroup R2 
+4155 Idera Disk Agent 10 Pack 
+1218 50 GB (SAN) 
+4151 Idera Server Backup 3.0 Enterprise (Linux) 
+52 Automated Notification 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+561 250GB EVault Disk to Disk Enterprise Backup 
+887 Debian GNU/Linux 5.x Lenny/Stable - Minimal Install (32 bit) 
+397 McAfee VirusScan Anti-Virus - Windows 
+4549 Windows Server 2012 R2 Standard Edition (64 bit) 
+1154 64 GB 
+885 Ubuntu Linux 8 LTS Hardy Heron - LAMP Install (32 bit) 
+4197 Parallels Plesk Panel 11 (Linux) Unlimited Domain w/ Power Pack 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+3835 Red Hat Enterprise Linux 6 - LAMP Install (64 bit) 
+1221 150 GB (SAN) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+4174 Ubuntu Linux 12.04 LTS Precise Pangolin - Minimal Install (64 bit) 
+4171 Ubuntu Linux 12.04 LTS Precise Pangolin - LAMP Install (32 bit) 
+1219 75 GB (SAN) 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+4060 RightLink 
+1230 1,000 GB (SAN) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+187 100 Mbps Public & Private Network Uplinks 
+4386 25 GB (SAN) 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+978 Windows Server 2008 R2 Enterprise Edition (64bit) 
+1222 175 GB (SAN) 
+1217 40 GB (SAN) 
+684 Microsoft SQL Server 2008 Workgroup 
+4147 Microsoft SQL Server 2012 Web Edition 
+4148 Microsoft SQL Server 2012 Standard Edition 
+921 Windows Server 2003 Datacenter SP2 with R2 (64 bit) 
+865 100 GB (SAN) 
+4409 Debian GNU/Linux 7.x Wheezy/Stable - LAMP Install (64 bit) 
+4148 Microsoft SQL Server 2012 Standard Edition 
+740 Virtuozzo Containers 4 for Linux - 5 VPS 
+4148 Microsoft SQL Server 2012 Standard Edition 
+4147 Microsoft SQL Server 2012 Web Edition 
+877 CentOS 5.x - LAMP Install (32 bit) 
+933 Windows Server 2008 Standard Edition SP2 (32bit) 
+4592 MySQL 5.7 for Windows 
+4598 VMware vCenter 5.5 Standard 
+4668 Ubuntu Linux 14.04 LTS Trusty Tahr - Minimal Install (64 bit) 
+40 20 GB NAS 
+880 Red Hat Enterprise Linux 5 - Minimal Install (64 bit) 
+1048 Private 8 x 2.0 GHz Cores 
+4149 Microsoft SQL Server 2012 Enterprise Edition 
+3908 CentOS 6.x - Minimal Install (64 bit) 
+4148 Microsoft SQL Server 2012 Standard Edition 
