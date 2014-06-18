@@ -48,21 +48,12 @@ foreach ($item_price_ids as $id) {
   $my_order->prices[] = $price;
 }
 
-if ('yes' == $argv[1]) {
-  try {
-    $result = $client->placeOrder($my_order);
-    print_r($result);
-  } catch (Exception $e) {
-    die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
-  }
-} else {
-  try {
-    $result = $client->verifyOrder($my_order);
-    print_r($result);
-  } catch (Exception $e) {
-    die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
-  }
+$cmd = 'yes' == $argv[1] ? 'placeOrder' : 'verifyOrder';
+try {
+  $result = $client->$cmd($my_order);
+  print_r($result);
+} catch (Exception $e) {
+  die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
 }
-
 echo shell_exec('date');
 ?>
