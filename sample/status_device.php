@@ -13,7 +13,7 @@ function status_domain($domain_id, &$all_done, &$timestamp, $minutes)
 
   $object_mask = "mask[id, datacenter[name], fullyQualifiedDomainName, provisionDate]";
 
-  echo "ID\t\tDatacenter\tProvision date\t\t\tTime\tFQDN\n\n";
+  echo "ID\t\tDatacenter\tProvision date\t\t\tTime(min)\tFQDN\n\n";
   foreach ($domain_id as $my_id) {
     $domain_client = SoftLayer_SoapClient::getClient('SoftLayer_Virtual_Guest', $my_id, SLAPI_USER, SLAPI_KEY);
     $domain_client->setObjectMask($object_mask);
@@ -25,6 +25,8 @@ function status_domain($domain_id, &$all_done, &$timestamp, $minutes)
     if (empty($res->provisionDate)) {
       $all_done = false;
       $res->provisionDate = 'NOT FINISHED PROVISIONING';
+      if (!isset($res->datacenter))
+        $res->datacenter = new stdClass();
       $res->datacenter->name = '---';
       $timestamp["$my_id"] = $minutes;
     }
@@ -32,6 +34,13 @@ function status_domain($domain_id, &$all_done, &$timestamp, $minutes)
     echo "$res->id\t\t" . $res->datacenter->name . "\t\t$res->provisionDate" .
          "\t$time" . "\t$res->fullyQualifiedDomainName\n";
   }
+}
+
+function calculate_mean($timestamp)
+{
+if (empty($timestamp))
+  return 0;
+return array_sum($timestamp)/sizeof($timestamp);
 }
 
 $domain_to_status = array();
@@ -57,7 +66,10 @@ while (1) {
   $delta = $now['sec'] - $start['sec'];
   $minutes = round($delta/60);
   status_domain($domain_to_status, $all_done, $timestamp, $minutes);
+  $mean_provision_time = calculate_mean($timestamp);
   echo "\t\t### Time passed since start is $minutes minutes ($delta seconds) ###\n";
+  echo "\t\t### Provisioning duration: $mean_provision_time ###\n";
+  echo "\t\t### MIN: " . min($timestamp) . " MAX: " . max($timestamp) . " AVERAGE: $mean_provision_time ###\n";
   echo "\t\t### All done: $all_done ###\n\n";
   if ($all_done) exit;
   sleep(10);
