@@ -32,6 +32,7 @@ if ('yes' == $argv[1]) {
   try {
     $orderClient = SoftLayer_SoapClient::getClient('SoftLayer_Product_Order', null, SLAPI_USER, SLAPI_KEY);
     $orderContainer = $client->generateOrderTemplate($object_mask);
+    print_r($orderClient->verifyOrder($orderContainer));
   } catch (Exception $e) {
     die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
   }
