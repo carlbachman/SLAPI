@@ -32,7 +32,7 @@ function status_domain($domain_id, &$all_done, &$timestamp, $minutes)
     }
     $time = empty($timestamp["$my_id"]) ? 0 : $timestamp["$my_id"];
     echo "$res->id\t\t" . $res->datacenter->name . "\t\t$res->provisionDate" .
-         "\t$time" . "\t$res->fullyQualifiedDomainName\n";
+         "\t$time" . "\t\t$res->fullyQualifiedDomainName\n";
   }
 }
 
@@ -67,10 +67,14 @@ while (1) {
   $minutes = round($delta/60);
   status_domain($domain_to_status, $all_done, $timestamp, $minutes);
   $mean_provision_time = calculate_mean($timestamp);
-  echo "\t\t### Time passed since start is $minutes minutes ($delta seconds) ###\n";
-  echo "\t\t### Provisioning duration: $mean_provision_time ###\n";
-  echo "\t\t### MIN: " . min($timestamp) . " MAX: " . max($timestamp) . " AVERAGE: $mean_provision_time ###\n";
-  echo "\t\t### All done: $all_done ###\n\n";
+  $min = empty($timestamp) ? 0 : min($timestamp);
+  $max = empty($timestamp) ? 0 : max($timestamp);
+  echo "\t\t########################################################\n";
+  echo "\t\t### Time passed since start is $minutes minutes ($delta seconds)\n";
+  echo "\t\t### Provisioning duration\n";
+  echo "\t\t### MIN: $min MAX: $max AVERAGE: $mean_provision_time\n";
+  echo "\t\t### All done: $all_done\n";
+  echo "\t\t########################################################\n\n";
   if ($all_done) exit;
   sleep(10);
 }
