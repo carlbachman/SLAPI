@@ -14,7 +14,11 @@ function delete_domain($domain_id)
   foreach ($domain_id as $my_id) {
     try {
       $domain_client = SoftLayer_SoapClient::getClient('SoftLayer_Virtual_Guest', $my_id, SLAPI_USER, SLAPI_KEY);
-      $domain_client->deleteObject();
+      $res = $domain_client->getActiveTransaction();
+      if (isset($res->transactionStatus) &&
+          'RECLAIM_WAIT' != $res->transactionStatus->name) {
+        $domain_client->deleteObject();
+      }
     } catch (Exception $e) {
       die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
     }
