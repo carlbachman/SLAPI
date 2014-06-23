@@ -10,7 +10,7 @@ $client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Order', null, SLAPI
 $my_order = new stdClass();
 $my_order->packageId = 46;
 $my_order->location  = 224092;
-$my_order->quantity  = 1;
+$my_order->quantity  = 20;
 $my_order->imageTemplateGlobalIdentifier  = '3dd41c1d-aa8e-49f8-ae0a-57f4427d1665';
 $my_order->virtualGuests = array();
 $my_order->prices = array();
@@ -18,7 +18,7 @@ $os_item_price = 24341; // debian 7 minimal
 
 for ($cnt = 0; $cnt < $my_order->quantity; $cnt++) {
   $domain = new stdClass();
-  $domain->hostname = "bench-$cnt";;
+  $domain->hostname = "bench-sg-$cnt";;
   $domain->domain = 'softlayer-singapore-test.com';
   $domain->localDiskFlag = true;
   $domain->hourlyBillingFlag = true;
@@ -31,7 +31,6 @@ $item_price_ids = array(26125, // 1x 2Ghz
                         24713, // GbE pub and priv
                         27674, // 5TB data
                         34807, // 1 IP
-                        //24013, // 25G LOCAL
                         32578, // 25G SAN
                         27023, // Host ping
                         32627, // Auto notification
