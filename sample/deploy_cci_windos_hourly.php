@@ -8,7 +8,6 @@ require_once 'config.ini';
 
 
 $object_mask = new stdClass();
-$object_mask->quantity = 1;
 $object_mask->datacenter['name'] = 'sng01';
 $object_mask->hostname = 'windos';
 $object_mask->domain = 'softlayer-singapore-test.com';

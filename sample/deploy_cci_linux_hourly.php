@@ -8,14 +8,13 @@ require_once 'config.ini';
 
 
 $object_mask = new stdClass();
-$object_mask->quantity = 1;
 $object_mask->datacenter['name'] = 'sng01';
 $object_mask->hostname = 'foo';
 $object_mask->domain = 'softlayer-singapore-test.com';
 $object_mask->startCpus = 1;
 $object_mask->maxMemory = 1024;
 $object_mask->hourlyBillingFlag = true;
-$object_mask->operatingSystemReferenceCode = 'CENTOS_6_64';
+$object_mask->operatingSystemReferenceCode = 'DEBIAN_7_64';
 $object_mask->localDiskFlag = true;
 $object_mask->networkComponents[0]['maxSpeed'] = 1000;
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Virtual_Guest', null, SLAPI_USER, SLAPI_KEY);
