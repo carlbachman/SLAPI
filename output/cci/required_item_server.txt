@@ -1,0 +1,12 @@
+            [errorMessage] => A server option is required to order a server
+            [errorMessage] => A remote management option is required to order a server
+            [errorMessage] => A port speed option is required to order a server
+            [errorMessage] => A bandwidth amount option is required to order a server
+            [errorMessage] => A primary IP option is required to order a server
+            [errorMessage] => A primary disk is required to order a server
+            [errorMessage] => An Operation System option is required to order a server
+            [errorMessage] => A monitoring option is required to order a server
+            [errorMessage] => A notification option is required to order a server
+            [errorMessage] => A response option is required to order a server
+            [errorMessage] => A VPN management user must be created with a server order.
+            [errorMessage] => A vulnerability assessment and management option is required with a server order
