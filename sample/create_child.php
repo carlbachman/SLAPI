@@ -7,6 +7,7 @@ if (!is_file('config.ini')) {
 require_once 'config.ini'; 
 
 define('CREATE_NBR_ACCOUNTS', 15);
+define('USERNAME_PREFIX', 'carl.SLTOPGUNBKKH');
 $cnt = 0;
 $my_user = new stdClass();
 $my_user->address1 = 'myaddress';
@@ -55,12 +56,12 @@ foreach ($default_perm as $value) {
 }
 
 for ($user = 0; $user < CREATE_NBR_ACCOUNTS; $user++) {
-  $my_user->username = 'carl.SLTOPGUNBKK' . $user;
+  $my_user->username = USERNAME_PREFIX . $user;
   $my_word = get_word();
   $client = SoftLayer_SoapClient::getClient('SoftLayer_User_Customer', '', SLAPI_USER, SLAPI_KEY);
-
+  $k = "!Za9$my_word";
   try {
-    $res = $client->createObject($my_user, "!$my_word", "!$my_word");
+    $res = $client->createObject($my_user, $k, $k);
   } catch (Exception $e) {
     die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
   }
@@ -69,10 +70,11 @@ for ($user = 0; $user < CREATE_NBR_ACCOUNTS; $user++) {
 
   try {
     $res = $client->addBulkPortalPermission($perm);
+    $res = $client->removeAllHardwareAccessForThisUser();
+    $res = $client->removeAllVirtualAccessForThisUser();
   } catch (Exception $e) {
     die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
   }
-
-  echo "$user : Credentials $my_user->username $my_word\n";
+  echo "$user : Credentials $my_user->username $k\n";
 }
 ?>
