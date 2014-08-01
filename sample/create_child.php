@@ -6,7 +6,7 @@ if (!is_file('config.ini')) {
 }
 require_once 'config.ini'; 
 
-define('CREATE_NBR_ACCOUNTS', 2);
+define('CREATE_NBR_ACCOUNTS', 15);
 $cnt = 0;
 $my_user = new stdClass();
 $my_user->address1 = 'myaddress';
@@ -55,7 +55,7 @@ foreach ($default_perm as $value) {
 }
 
 for ($user = 0; $user < CREATE_NBR_ACCOUNTS; $user++) {
-  $my_user->username = 'carl.testE' . $user;
+  $my_user->username = 'carl.SLTOPGUNBKK' . $user;
   $my_word = get_word();
   $client = SoftLayer_SoapClient::getClient('SoftLayer_User_Customer', '', SLAPI_USER, SLAPI_KEY);
 
