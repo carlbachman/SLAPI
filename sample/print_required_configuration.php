@@ -7,7 +7,7 @@ if (!is_file('config.ini')) {
 require_once 'config.ini'; 
 
 $client_null = SoftLayer_SoapClient::getClient('SoftLayer_Product_Package', null, SLAPI_USER, SLAPI_KEY);
-$client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Package', 46, SLAPI_USER, SLAPI_KEY);
+$client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Package', 50, SLAPI_USER, SLAPI_KEY);
 $req_items = array();
 
 try {
@@ -20,7 +20,6 @@ echo "[AVAILABLE PACKAGES]\n\n";
 foreach ($result as $res) {
   echo "$res->id $res->name\n";
 }
-
 
 try {
   $result = $client->getConfiguration();
@@ -40,7 +39,7 @@ try {
   die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
 }
 
-echo "[REQUIRED ITEMS]\n\n";
+echo "\n[REQUIRED ITEMS]\n\n";
 foreach ($result as $res) {
   if (in_array($res->id, $req_items))
     echo "$res->id $res->name\n";
@@ -51,11 +50,11 @@ try {
   die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
 }
 
-echo "[LOCATIONS]\n\n";
+echo "\n[LOCATIONS]\n\n";
 foreach ($result as $res) {
     echo "$res->name $res->id\n";
 }
-
+echo "\n[ITEM PRICES]\n\n";
 $object_mask = new SoftLayer_ObjectMask(); 
 $object_mask->items; 
 $client->setObjectMask($object_mask); 
