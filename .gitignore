@@ -2,3 +2,8 @@ tmp/
 test/
 *.ini
 *.swp
+test*
+config.ini
+config.ini.topgun
+config.ini.se
+config.ini.api
