@@ -20,7 +20,7 @@ for ($cnt = 0; $cnt < $my_order->quantity; $cnt++) {
   $domain = new stdClass();
   $domain->hostname = "bench-sg-$cnt";;
   $domain->domain = 'softlayer-singapore-test.com';
-  $domain->localDiskFlag = true;
+  $domain->localDiskFlag = false;
   $domain->hourlyBillingFlag = true;
   $my_order->virtualGuests[] = $domain;
 }
