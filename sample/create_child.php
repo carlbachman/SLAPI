@@ -22,23 +22,22 @@ $my_user->secondaryLoginRequiredFlag = false;
 $my_user->userStatusId = 1001;
 $my_user->timezoneId = 153;
 
-$default_perm = array('USER_MANAGE', 'ACCOUNT_SUMMARY_VIEW',
+$default_perm = array('ACCOUNT_SUMMARY_VIEW', 'SERVER_ADD','USER_MANAGE',
                       'RESET_PORTAL_PASSWORD', 'SERVER_CANCEL', 'NTF_SUBSCRIBER_MANAGE',
                       'REMOTE_MANAGEMENT', 'TICKET_VIEW', 'TICKET_VIEW_ALL', 'TICKET_SEARCH', 'TICKET_ADD',
                       'TICKET_EDIT', 'FIREWALL_MANAGE', 'ANTI_MALWARE_MANAGE', 'NETWORK_IDS_MANAGE',
                       'SECURITY_CERTIFICATE_VIEW', 'GATEWAY_MANAGE', 'HOST_ID_MANAGE',
                       'VULN_SCAN_MANAGE', 'SECURITY_CERTIFICATE_MANAGE', 'CUSTOMER_SSH_KEY_MANAGEMENT',
-                      'HARDWARE_VIEW', 'REMOTE_MANAGEMENT', 'MONITORING_MANAGE', 'SERVER_RELOAD',
-                      'SERVER_RELOAD', 'HOSTNAME_EDIT', 'VIRTUAL_GUEST_VIEW', 'REMOTE_MANAGEMENT',
-                      'MONITORING_MANAGE', 'PUBLIC_IMAGE_MANAGE', 'SERVER_RELOAD', 'SERVER_RELOAD',
+                      'HARDWARE_VIEW', 'REMOTE_MANAGEMENT', 'MONITORING_MANAGE', 'HOSTNAME_EDIT',
+                      'VIRTUAL_GUEST_VIEW', 'REMOTE_MANAGEMENT',
+                      'MONITORING_MANAGE', 'PUBLIC_IMAGE_MANAGE', 'SERVER_RELOAD',
                       'HOSTNAME_EDIT', 'LICENSE_VIEW', 'VIEW_CPANEL', 'VIEW_PLESK', 'VIEW_HELM',
                       'VIEW_QUANTASTOR', 'BANDWIDTH_MANAGE', 'PORT_CONTROL', 'DNS_MANAGE', 'DNS_MANAGE',
                       'DNS_MANAGE', 'DNS_MANAGE', 'LOADBALANCER_MANAGE', 'CDN_ACCOUNT_MANAGE',
                       'CDN_FILE_MANAGE', 'CDN_BANDWIDTH_VIEW', 'NETWORK_ROUTE_MANAGE',
                       'FIREWALL_RULE_MANAGE', 'BANDWIDTH_MANAGE', 'PORT_CONTROL', 'LOCKBOX_MANAGE',
-                      'NETWORK_TUNNEL_MANAGE', 'NAS_MANAGE', 'SERVER_RELOAD', 'SERVER_RELOAD',
-                      'NETWORK_VLAN_SPANNING', 'VPN_MANAGE', 'SERVER_ADD', 'SERVER_UPGRADE', 'SERVICE_ADD',
-                      'INSTANCE_UPGRADE', 'IP_ADD', 'ADD_SERVICE_STORAGE', 'SERVER_CANCEL',
+                      'NETWORK_TUNNEL_MANAGE', 'NAS_MANAGE', 'NETWORK_VLAN_SPANNING', 'VPN_MANAGE',
+                      'SERVER_UPGRADE', 'SERVICE_ADD','INSTANCE_UPGRADE', 'IP_ADD', 'ADD_SERVICE_STORAGE',
                       'SERVICE_CANCEL', 'USER_EVENT_LOG_VIEW', 'REQUEST_COMPLIANCE_REPORT',
                       'SCALE_GROUP_MANAGE', 'QUEUE_MANAGE', 'CUSTOMER_POST_PROVISION_SCRIPT_MANAGEMENT',
                       'NETWORK_MESSAGE_DELIVERY_MANAGE');
@@ -77,6 +76,6 @@ for ($user = 0; $user < CREATE_NBR_ACCOUNTS; $user++) {
   } catch (Exception $e) {
     die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
   }
-  echo "$user : Credentials $my_user->username $k\n";
+  echo "$user : Credentials $my_user->username $k\n\n";
 }
 ?>
