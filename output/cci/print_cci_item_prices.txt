@@ -1,0 +1,351 @@
+[ITEM PRICES]
+
+Hourly Recurring Fee	Recurring Fee	Description
+
+35			17		Windows Server 2012 R2 Datacenter Edition (64bit)
+.162			112.38		Private 2 x 2.0 GHz Cores
+			32.63		Microsoft SQL Server 2012 Web Edition
+.004			2.9		100 GB (LOCAL)
+.014			5		1 Gbps Private Network Uplink
+0			0		100 Mbps Private Network Uplink
+0			0		Debian GNU/Linux 7.x Wheezy/Stable - LAMP Install (32 bit)
+.15			104.4		12 GB
+0			0		Vyatta 6.5 Community Edition (64 bit)
+.188			130.5		12 x 2.0 GHz Cores
+0			0		Sitebuilder - Windows
+0			0		10 Mbps Private Network Uplink
+.011			7.46		100 GB (SAN)
+			1334.44		Microsoft SQL Server 2012 Enterprise Edition
+.019			13.46		300 GB (SAN)
+.089			62.14		1,500 GB (SAN)
+.058			40.6		4 GB
+			21.75		Parallels Plesk Panel 10 (Linux) 100 Domain w/ Power Pack
+0			0		10 Mbps Public & Private Network Uplinks
+			652.5		Microsoft SQL Server 2005 Enterprise
+.007			0		Host Ping and TCP Service Monitoring
+			13344.35		Microsoft SQL Server 2012 Enterprise Edition
+.087			72.5		Red Hat Enterprise Linux 6.x - Minimal Install (64 bit)
+0			0		100 Mbps Public Uplink
+			1334.44		Microsoft SQL Server 2014 Enterprise Edition
+			347.97		Microsoft SQL Server 2014 Standard Edition
+			869.93		Microsoft SQL Server 2014 Standard Edition
+			2087.83		Microsoft SQL Server 2014 Standard Edition
+					cPanel/WHM with Softaculous and RVskin 
+			174		Microsoft SQL Server 2012 Web Edition
+0			0		VMware vCenter 5.1 Standard
+.036			36.25		Windows Server 2003 Enterprise SP2 with R2 (32 bit)
+			0		Microsoft WebMatrix
+0			0		Debian GNU/Linux 7.x Wheezy/Stable - Minimal Install (32 bit)
+			0		Riak Enterprise 1.3.0
+.326			163.13		Virtuozzo Containers 4 for Linux - 100 VPS
+			652.5		Microsoft SQL Server 2008 Enterprise R2
+.036			14.5		Windows Server 2003 Standard SP2 with R2 (64 bit)
+0			0		CentOS 5.x - Minimal Install (32 bit)
+			21.75		McAfee Host Intrusion Protection w/Reporting
+.004			2.9		100 GB (LOCAL)
+			76.13		Microsoft SQL Server 2012 Web Edition
+0			0		Business Continuance Insurance
+			43.5		60GB EVault Disk to Disk Enterprise Backup
+			4670.52		Microsoft SQL Server 2012 Enterprise Edition
+.028			10		1 Gbps Public & Private Network Uplinks
+.218			108.75		Virtuozzo Containers 4 for Linux - 50 VPS
+.036			14.5		Windows Server 2003 Standard SP2 with R2 (32 bit)
+0			0		CentOS 6.x - LAMP Install (32 bit)
+			217.5		500GB EVault Disk to Disk Enterprise Backup
+.058			32.63		Red Hat Enterprise Linux 6.x - Minimal Install (32 bit)
+0			0		100 Mbps Private Uplink
+.036			14.5		Windows Server 2008 R2 Standard Edition (64bit)
+			0		5000 GB Bandwidth
+			667.22		Microsoft SQL Server 2012 Enterprise Edition
+0			0		25 GB (SAN)
+0			0		Storage Backend Upgrade
+			130.5		Microsoft SQL Server 2012 Web Edition
+			3479.71		Microsoft SQL Server 2012 Standard Edition
+.325			226.2		32 GB
+			18.13		Microsoft SQL Server 2008 Web R2
+			2001.65		Microsoft SQL Server 2012 Enterprise Edition
+.044			7.25		Monitoring Package - Premium Application
+.028			10		40 GB NAS
+			1739.9		Microsoft SQL Server 2012 Standard Edition
+0			0		Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (32 bit)
+			173.99		Microsoft SQL Server 2014 Standard Edition
+.087			72.5		Red Hat Enterprise Linux 5.x - LAMP Install (64 bit)
+			10.88		Microsoft SQL Server 2012 Web Edition
+			5337.74		Microsoft SQL Server 2012 Enterprise Edition
+			8006.61		Microsoft SQL Server 2012 Enterprise Edition
+0			0		Ubuntu Linux 10.04 LTS Lucid Lynx - LAMP Install (64 bit)
+.145			72.5		Virtuozzo Containers 4 for Linux - 10 VPS
+0			0		Debian GNU/Linux 6.x Squeeze/Stable - Minimal Install (64 bit)
+			869.93		Microsoft SQL Server 2012 Standard Edition
+.131			90.63		Windows Server 2008 Datacenter Edition SP2 (64bit)
+			18.13		Idera Disk Agent 5 Pack
+0			0		Ubuntu Linux 12.04 LTS Precise Pangolin - Minimal Install (32 bit)
+.011			7.87		125 GB (SAN)
+.056			20		80 GB NAS
+			29		40GB EVault Disk to Disk Enterprise Backup
+.058			32.63		Red Hat Enterprise Linux 6.x - LAMP Install (32 bit)
+			163.13		Microsoft SQL Server 2008 Standard R2
+			1217.9		Microsoft SQL Server 2012 Standard Edition
+.181			90.63		Virtuozzo Containers 4 for Linux - 30 VPS
+			50		Unlimited Bandwidth (10 Mbps Uplink)
+0			0		Monitoring Package - Basic
+.073			36.25		Windows Server 2008 Enterprise Edition SP2 (64bit)
+			21.75		Parallels Plesk Panel 11 (Windows) 100 Domain w/ Power Pack
+			54.38		Idera Backup Agent 25 Pack
+.435			217.5		Virtuozzo Containers 4 for Linux - 150 VPS
+.022			3.63		Monitoring Package - Advanced
+0			0		Ubuntu Linux 8 LTS Hardy Heron - Minimal Install (32 bit)
+			0		Microsoft SQL Server 2008 Express R2
+0					0 GB Bandwidth
+0			0		Debian GNU/Linux 5.x Lenny/Stable - LAMP Install (32 bit)
+			21.75		Parallels Plesk Panel 11 (Linux) 100 Domain w/ Power Pack
+			869.93		Microsoft SQL Server 2012 Standard Edition
+			8.7		CloudLinux 6.x (32 bit)
+			1043.91		Microsoft SQL Server 2012 Standard Edition
+			543.75		1500GB EVault Disk to Disk Enterprise Backup
+.073			36.25		Windows Server 2008 Enterprise Edition SP2 (32bit)
+			75		8000 GB Bandwidth
+			32.63		Microsoft SQL Server 2012 Web Edition
+0			0		MySQL 5.0 for Windows
+0			0		MySQL for Linux
+			36.25		50GB EVault Disk to Disk Enterprise Backup
+0			0		Debian GNU/Linux 6.x Squeeze/Stable - LAMP Install (32 bit)
+			65.25		Microsoft SQL Server 2012 Web Edition
+			3336.09		Microsoft SQL Server 2014 Enterprise Edition
+			3336.09		Microsoft SQL Server 2014 Enterprise Edition
+			4003.31		Microsoft SQL Server 2014 Enterprise Edition
+			8006.61		Microsoft SQL Server 2014 Enterprise Edition
+			10675.48		Microsoft SQL Server 2014 Enterprise Edition
+			1043.91		Microsoft SQL Server 2014 Standard Edition
+			2783.77		Microsoft SQL Server 2014 Standard Edition
+0			0		Ubuntu Linux 14.04 LTS Trusty Tahr - Minimal Install (32 bit)
+			108.8		Microsoft SQL Server 2012 Web Edition
+.07			25		NOC Monitoring
+			36.25		Idera Backup Agent 10 Pack
+.029			20.3		2 GB
+			362.5		1000GB EVault Disk to Disk Enterprise Backup
+			2087.83		Microsoft SQL Server 2012 Standard Edition
+			18.13		cPanel/WHM with Fantastico and RVskin
+.058			32.63		Red Hat Enterprise Linux 5.x - LAMP Install (64 bit)
+.036			14.5		Windows Server 2012 Standard Edition (64 bit)
+			29		10Mbps Hardware Firewall
+			99		1000Mbps Hardware Firewall
+			10.88		Microsoft SQL Server 2012 Web Edition
+			173.99		Microsoft SQL Server 2012 Standard Edition
+0			0		Debian GNU/Linux 7.x Wheezy/Stable - Minimal Install (64 bit)
+.083			58		6 GB
+.058			32.63		Red Hat Enterprise Linux 5.x - Minimal Install (32 bit)
+.087			72.5		Red Hat Enterprise Linux 5.x - Minimal Install (64 bit)
+.036			36.25		Windows Server 2003 Enterprise SP2 with R2 (64 bit)
+			4003.31		Microsoft SQL Server 2012 Enterprise Edition
+			14.5		20GB EVault Disk to Disk Enterprise Backup
+0			0		Microsoft Windows Firewall
+			43.5		Microsoft SQL Server 2012 Web Edition
+			29		Parallels Plesk Panel 10 (Windows) Unlimited Domain w/ Power Pack
+.006			4.14		20 GB (SAN)
+0			0		APF Software Firewall for Linux
+			18.13		Idera Backup Agent 5 Pack
+			29		Parallels Plesk Panel 11 (Windows) Unlimited Domain w/ Power Pack
+.015			10.15		1 GB
+			217.5		Microsoft SQL Server 2012 Web Edition
+.087			43.5		Virtuozzo Containers 4 for Linux - 3 VPS
+0			0		CentOS 6.x - Minimal Install (32 bit)
+			0		Apache Monitoring Agent
+0			0		Vyatta 6.6 Community Edition (64 bit)
+.045			31.07		750 GB (SAN)
+			725		2000GB EVault Disk to Disk Enterprise Backup
+0			0		10 Mbps Public Uplink
+			54.38		Microsoft SQL Server 2012 Web Edition
+.007			4		4 Public IP Addresses
+.007			4.97		30 GB (SAN)
+.254			126.88		Virtuozzo Containers 4 for Linux - 70 VPS
+			667.22		Microsoft SQL Server 2014 Enterprise Edition
+			667.22		Microsoft SQL Server 2014 Enterprise Edition
+			4003.31		Microsoft SQL Server 2014 Enterprise Edition
+			5337.74		Microsoft SQL Server 2014 Enterprise Edition
+			13344.35		Microsoft SQL Server 2014 Enterprise Edition
+			1217.9		Microsoft SQL Server 2014 Standard Edition
+			1217.9		Microsoft SQL Server 2014 Standard Edition
+			667.22		Microsoft SQL Server 2012 Enterprise Edition
+0			0		Debian GNU/Linux 6.x Squeeze/Stable - Minimal Install (32 bit)
+.087			72.5		Red Hat Enterprise Linux 6.x - Minimal Install (32 bit)
+			58		100GB EVault Disk to Disk Enterprise Backup
+.014			9.11		200 GB (SAN)
+.007			0		/64 Block Static Public IPv6 Addresses
+.131			90.63		Windows Server 2008 R2 Datacenter Edition (64bit)
+.008			5.8		200 GB (LOCAL)
+			43.5		Microsoft SQL Server 2012 Web Edition
+0			0		Microsoft SQL Server 2012 Express Edition
+			326.25		750GB EVault Disk to Disk Enterprise Backup
+			3336.09		Microsoft SQL Server 2012 Enterprise Edition
+			21.75		Microsoft SQL Server 2012 Web Edition
+.25			174		16 x 2.0 GHz Cores
+			8.7		CloudLinux 5.x (64 bit)
+			3.63		Idera Backup Agent 1 Pack
+			65.25		Microsoft SQL Server 2012 Web Edition
+.058			32.63		Red Hat Enterprise Linux 6.x - LAMP Install (64 bit)
+			652.5		Microsoft SQL Server 2008 Enterprise
+0			0		Riak 1.x
+0			0		Remote Network Connection Monitoring Agent
+			695.94		Microsoft SQL Server 2012 Standard Edition
+0			0		Reboot / Remote Console
+			0		Microsoft SQL Server 2005 Express
+0			0		Ubuntu Linux 10.04 LTS Lucid Lynx - Minimal Install (32 bit)
+			177.63		350GB EVault Disk to Disk Enterprise Backup
+			0		Account Setup Fee
+0			0		Ubuntu Linux 12.04 LTS Precise Pangolin - LAMP Install (64 bit)
+0			0		Email and Ticket
+			18.13		Microsoft SQL Server 2008 Web
+.087			72.5		Red Hat Enterprise Linux 5.x - LAMP Install (32 bit)
+.03			20.71		500 GB (SAN)
+			54.38		Microsoft SQL Server 2012 Web Edition
+			0		0 GB Bandwidth
+			8.7		CloudLinux 5.x (32 bit)
+0			0		1 IP Address
+0			0		MySQL 5.0.51 for Windows
+.005			3.31		10 GB (SAN)
+.007			0		Automated Reboot from Monitoring
+0			0		Ubuntu Linux 10.04 LTS Lucid Lynx - LAMP Install (32 bit)
+0			0		International Services
+			54.38		Microsoft SQL Server 2005 Workgroup
+			667.22		Microsoft SQL Server 2014 Enterprise Edition
+			2001.65		Microsoft SQL Server 2014 Enterprise Edition
+			2668.87		Microsoft SQL Server 2014 Enterprise Edition
+			4670.52		Microsoft SQL Server 2014 Enterprise Edition
+0			0		Microsoft SQL Server 2014 Express Edition
+			1043.91		Microsoft SQL Server 2014 Standard Edition
+			1391.88		Microsoft SQL Server 2014 Standard Edition
+.058			32.63		Red Hat Enterprise Linux 5.x - LAMP Install (32 bit)
+.015			10.36		250 GB (SAN)
+.07			25		100 GB NAS
+.006			4.35		150 GB (LOCAL)
+.035			17		Windows Server 2008 Datacenter Edition SP2 (32bit)
+			1391.88		Microsoft SQL Server 2012 Standard Edition
+.145			100.78		Private 1 x 2.0 GHz Core
+			3.63		McAfee Total Protection - Windows
+0			0		Ubuntu Linux 10.04 LTS Lucid Lynx - Minimal Install (64 bit)
+.036			14.5		Windows Server 2008 Standard Edition SP2 (64bit)
+			1043.91		Microsoft SQL Server 2012 Standard Edition
+.087			72.5		Red Hat Enterprise Linux 6.x - LAMP Install (32 bit)
+.14			50		250 GB NAS
+			695.94		Microsoft SQL Server 2012 Standard Edition
+.131			90.63		Windows Server 2012 Datacenter Edition (64bit)
+.125			87		8 x 2.0 GHz Cores
+.001			.73		25 GB (LOCAL)
+			1500		Unlimited Bandwidth (100 Mbps Uplink)
+0			0		Host Ping
+			49		100Mbps Hardware Firewall
+0			0		Ubuntu Linux 8 LTS Hardy Heron - LAMP Install (64 bit)
+.176			122.53		Private 4 x 2.0 GHz Cores
+0			0		Debian GNU/Linux 5.x Lenny/Stable - Minimal Install (64 bit)
+			125		10000 GB Bandwidth
+			0		Microsoft SQL Server 2008 Express
+.024			16.57		350 GB (SAN)
+			8.7		CloudLinux 6.x (64 bit)
+0			0		Debian GNU/Linux 5.x Lenny/Stable - LAMP Install (64 bit)
+0			0		Debian GNU/Linux 6.x Squeeze/Stable - LAMP Install (64 bit)
+0			0		CentOS 5.x - LAMP Install (64 bit)
+			101.5		175GB EVault Disk to Disk Enterprise Backup
+			29		Parallels Plesk Panel 10 (Linux) Unlimited Domain w/ Power Pack
+0			0		CentOS 5.x - Minimal Install (64 bit)
+0			0		Nessus Vulnerability Assessment & Reporting
+.108			75.4		8 GB
+			4670.52		Microsoft SQL Server 2012 Enterprise Edition
+			163.13		Microsoft SQL Server 2008 Standard
+			521.96		Microsoft SQL Server 2012 Standard Edition
+.28			100		500 GB NAS
+			18.13		Idera Server Backup 5.0 Enterprise (Windows)
+.063			43.5		4 x 2.0 GHz Cores
+			79		200Mbps Hardware Firewall
+0			0		Unlimited SSL VPN Users & 1 PPTP VPN User per account
+0			0		Ubuntu Linux 14.04 LTS Trusty Tahr - LAMP Install (64 bit)
+.425			295.8		48 GB
+.119			82.86		2,000 GB (SAN)
+0			0		MongoDB
+			2668.87		Microsoft SQL Server 2012 Enterprise Edition
+			4003.31		Microsoft SQL Server 2012 Enterprise Edition
+			2001.65		Microsoft SQL Server 2014 Enterprise Edition
+			5337.74		Microsoft SQL Server 2014 Enterprise Edition
+			521.96		Microsoft SQL Server 2014 Standard Edition
+			1739.9		Microsoft SQL Server 2014 Standard Edition
+			55		20Mbps Hardware Firewall
+.031			21.75		2 x 2.0 GHz Cores
+0			0		CentOS 6.x - LAMP Install (64 bit)
+.087			72.5		Red Hat Enterprise Linux 5.x - Minimal Install (32 bit)
+			2668.87		Microsoft SQL Server 2012 Enterprise Edition
+			21.75		30GB EVault Disk to Disk Enterprise Backup
+.016			10.88		1 x 2.0 GHz Core
+			25		6000 GB Bandwidth
+.013			8.7		300 GB (LOCAL)
+0			0		25 GB (LOCAL)
+.131			90.63		Windows Server 2003 Datacenter SP2 with R2 (32 bit)
+.058			32.63		Red Hat Enterprise Linux 6.x - Minimal Install (64 bit)
+.014			8		8 Public IP Addresses
+			54.38		Idera Disk Agent 25 Pack
+.027			18.64		400 GB (SAN)
+			87		Microsoft SQL Server 2012 Web Edition
+			18.13		Idera Server Backup 5.0 Enterprise (Linux)
+0			0		Ubuntu Linux 8 LTS Hardy Heron - Minimal Install (64 bit)
+0			0		1 IPv6 Address
+.192			133.4		16 GB
+			163.13		Microsoft SQL Server 2005 Standard
+			54.38		Microsoft SQL Server 2008 Workgroup R2
+			36.25		Idera Disk Agent 10 Pack
+.01			6.63		50 GB (SAN)
+0			0		Automated Notification
+			5337.74		Microsoft SQL Server 2012 Enterprise Edition
+			126.88		250GB EVault Disk to Disk Enterprise Backup
+0			0		Debian GNU/Linux 5.x Lenny/Stable - Minimal Install (32 bit)
+0			0		McAfee VirusScan Anti-Virus - Windows
+.035			17		Windows Server 2012 R2 Standard Edition (64 bit)
+.526			365.4		64 GB
+0			0		Ubuntu Linux 8 LTS Hardy Heron - LAMP Install (32 bit)
+			29		Parallels Plesk Panel 11 (Linux) Unlimited Domain w/ Power Pack
+			10675.48		Microsoft SQL Server 2012 Enterprise Edition
+			2668.87		Microsoft SQL Server 2014 Enterprise Edition
+			173.99		Microsoft SQL Server 2014 Standard Edition
+			521.96		Microsoft SQL Server 2014 Standard Edition
+			695.94		Microsoft SQL Server 2014 Standard Edition
+			695.94		Microsoft SQL Server 2014 Standard Edition
+			869.93		Microsoft SQL Server 2014 Standard Edition
+			1391.88		Microsoft SQL Server 2014 Standard Edition
+			3479.71		Microsoft SQL Server 2014 Standard Edition
+.087			72.5		Red Hat Enterprise Linux 6.x - LAMP Install (64 bit)
+.012			8.29		150 GB (SAN)
+			1217.9		Microsoft SQL Server 2012 Standard Edition
+0			0		Ubuntu Linux 12.04 LTS Precise Pangolin - Minimal Install (64 bit)
+0			0		Ubuntu Linux 12.04 LTS Precise Pangolin - LAMP Install (32 bit)
+.01			7.04		75 GB (SAN)
+			667.22		Microsoft SQL Server 2012 Enterprise Edition
+0			0		RightLink
+.06			41.43		1,000 GB (SAN)
+			347.97		Microsoft SQL Server 2012 Standard Edition
+0			0		100 Mbps Public & Private Network Uplinks
+.007			4.71		25 GB (SAN)
+			2001.65		Microsoft SQL Server 2012 Enterprise Edition
+.073			36.25		Windows Server 2008 R2 Enterprise Edition (64bit)
+.013			8.7		175 GB (SAN)
+.008			5.8		40 GB (SAN)
+			54.38		Microsoft SQL Server 2008 Workgroup
+			87		Microsoft SQL Server 2012 Web Edition
+			521.96		Microsoft SQL Server 2012 Standard Edition
+.131			90.63		Windows Server 2003 Datacenter SP2 with R2 (64 bit)
+.011			7.46		100 GB (SAN)
+0			0		Debian GNU/Linux 7.x Wheezy/Stable - LAMP Install (64 bit)
+			1391.88		Microsoft SQL Server 2012 Standard Edition
+.036			14.5		Windows Server 2008 Standard SP1 with R2 (64 bit)
+.116			58		Virtuozzo Containers 4 for Linux - 5 VPS
+			2783.77		Microsoft SQL Server 2012 Standard Edition
+			76.13		Microsoft SQL Server 2012 Web Edition
+0			0		CentOS 5.x - LAMP Install (32 bit)
+.036			14.5		Windows Server 2008 Standard Edition SP2 (32bit)
+0			0		MySQL 5.7 for Windows
+0			0		VMware vCenter 5.5 Standard
+0			0		Ubuntu Linux 14.04 LTS Trusty Tahr - Minimal Install (64 bit)
+.014			5		20 GB NAS
+.058			32.63		Red Hat Enterprise Linux 5.x - Minimal Install (64 bit)
+.218			151.53		Private 8 x 2.0 GHz Cores
+			3336.09		Microsoft SQL Server 2012 Enterprise Edition
+0			0		CentOS 6.x - Minimal Install (64 bit)
+			173.99		Microsoft SQL Server 2012 Standard Edition
+			4670.52		Microsoft SQL Server 2014 Enterprise Edition
