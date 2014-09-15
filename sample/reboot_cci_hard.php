@@ -6,7 +6,7 @@ if (!is_file('config.ini')) {
 }
 require_once 'config.ini'; 
 
-function delete_domain($domain_id)
+function action_domain($domain_id)
 {
   if (empty($domain_id))
     return;
@@ -49,8 +49,8 @@ if (strlen($argv[1]) < 7 && 'all' != $argv[1]) {
       "$k->primaryBackendIpAddress\t$k->fullyQualifiedDomainName \n\n";
   }
   sleep(10);
-  delete_domain($domain_to_reboot);
+  action_domain($domain_to_reboot);
 } else {
-  delete_domain(explode(',', $argv[1]));
+  action_domain(explode(',', $argv[1]));
 }
 ?>
