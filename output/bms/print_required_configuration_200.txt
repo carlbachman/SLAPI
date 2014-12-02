@@ -2,10 +2,8 @@
 
 0 Additional Products
 10 Control Panels for VPS
-21 Single Developer Special - AMD
 32 Quad Processor, Quad Core Intel
 35 Dual Xeon (Dual Core) Woodcrest/Cloverton - OUTLET
-39 Dual Xeon (Dual Core) Woodcrest/Cloverton - OUTLET
 41 Single Xeon 5500 Series (Nehalem)
 42 Dual Xeon 5500 Series (Nehalem)
 43 Specialty Server: Redundant Power: Xeon 5500 (Nehalem) Series
@@ -87,7 +85,6 @@
 124 Virtual Rack Xeon 3450 - SATA
 125 Virtual Rack Xeon 3450 - SAS
 126 Single Xeon 1200 Series (Sandy Bridge / Haswell)
-130 Cloud Server (Simplified)
 132 Virtual Rack Quad Xeon 7450 - SAS
 135 RightScale XS CCI
 136 RightScale SM CCI
@@ -103,15 +100,7 @@
 146 Sandy Bridge 1270
 147 Specialty Server: 4u Mass Storage Dual Xeon 2000 (Sandy Bridge) Series
 148 Specialty Server: 2u Mass Storage Dual Xeon 2000 (Sandy Bridge) Series
-151 CloudPlatform Management Server
-152 Host Server (1U / 2Proc)
-153 Host Server (2U / 2Proc)
-154 Host Server (2U / 4Proc)
-155 Small
-157 Large
 158 Quad Xeon 4000 Series (Sandy Bridge)
-159 n x n MongoDB Replica Set
-160 Medium
 161 RightScale MD (High Mem) CCI
 162 ScaleRight LG (High Mem) Private CCI
 163 ScaleRight XS Private CCI
@@ -120,17 +109,8 @@
 166 ScaleRight LG Private CCI
 168 RightScale LG (High Mem) CCI
 169 ScaleRight MD (High Mem) Private CCI
-170 Riak Solution
-171 RIAK: Small
-172 RIAK: Medium
 173 VHD Import
 174 Network Gateway Appliance
-175 Private Cloud Solution
-176 Cloudera Hadoop Solution
-177 CLOUDERA: Manager
-178 CLOUDERA: Process Node
-179 CLOUDERA: Storage Node 2U
-180 CLOUDERA: Storage Node 4U
 192 Application Delivery Appliance
 194 Load Balancers
 196 Network Gateway Appliance Cluster
@@ -143,10 +123,15 @@
 212 Message Queue
 216 Network Attached Storage
 218 iSCSI Storage
-222 Performance Storage Service
+222 Consistent Performance Storage
+226 Authentication Services
+234 Quad Xeon E7-4800 v2 (Ivy Bridge) Series
+236 Network Gateway Appliance (10 Gbps)
+240 'Codename: Prime' storage
 
 [REQUIRED ITEMS]
 
+1 Server
 12 Operating System
 3 RAM
 11 Disk Controller
@@ -159,99 +144,95 @@
 
 [LOCATIONS]
 
+ams01 265592
+dal00 2
 dal01 3
-wdc01 37473
+hkg02 352494
+lon02 358694
+mel01 449596
 sjc01 168642
 sng01 224092
-ams01 265592
-hkg02 352494
+tor01 448994
+wdc01 37473
 
 [ITEM PRICES]
 
-34807 1 IP Address
-22829 10 Mbps Public & Private Network Uplinks
-26737 100 Mbps Public & Private Network Uplinks
-29403 1 IPv6 Address
-37386 256 GB DDR3 Registered 1333
-26157 Ubuntu Linux 12.04 LTS Precise Pangolin (32 bit)
-35529 800GB SSD
-37084 FreeBSD 10.x (32 bit)
-23710 100GB EVault Disk to Disk Enterprise Backup
-29827 Windows Server 2008 Standard Edition SP2 (32bit)
-28706 Windows Server 2008 Web Edition SP2 (64bit)
-31411 60GB EVault Disk to Disk Enterprise Backup
-37378 128 GB DDR3 Registered 1333
-37360 32 GB DDR3 Registered 1333
-22941 400GB SSD
-30046 175GB EVault Disk to Disk Enterprise Backup
-31673 Windows Server 2012 Standard Edition (64 bit)
-30067 Red Hat Enterprise Linux - 5 (32 bit) (per-processor licensing)
-35381 10 Mbps Redundant Public & Private Network Uplinks
-27086 Debian GNU/Linux 7.x Wheezy/Stable (64 bit)
 31493 4 Public IP Addresses
-22949 Unlimited Bandwidth (10 Mbps Uplink)
+30063 350GB EVault Disk to Disk Enterprise Backup
+30912 40GB EVault Disk to Disk Enterprise Backup
+32086 1.00 TB SATA II
+37386 256 GB Registered DDR3 1333
+33206 2000GB EVault Disk to Disk Enterprise Backup
+44370 Dual Processor Octo Core Xeon 2690 - 2.90GHz (Sandy Bridge) - 2 x 20MB cache
+33867 20000 GB Bandwidth
+28124 1000GB EVault Disk to Disk Enterprise Backup
+33483 Unlimited SSL VPN Users & 1 PPTP VPN User per account
+28959 750GB EVault Disk to Disk Enterprise Backup
+31673 Windows Server 2012 Standard Edition (64 bit)
+37394 512 GB Registered DDR3 1333
+29403 1 IPv6 Address
+23777 1 Gbps Private Network Uplink
+25727 Account Setup Fee
+29064 Red Hat Enterprise Linux 5.x (64 bit) (per-processor licensing)
+37302 Dual Processor Octo Core Xeon 2650 - 2.00GHz (Sandy Bridge) - 2 x 20MB cache
+32931 250GB EVault Disk to Disk Enterprise Backup
+30396 CentOS 5.x (32 bit)
+36037 RAID
+26105 30GB EVault Disk to Disk Enterprise Backup
+35310 Nessus Vulnerability Assessment & Reporting
 24713 1 Gbps Public & Private Network Uplinks
 32927 Non-RAID
-22747 20GB EVault Disk to Disk Enterprise Backup
-30912 40GB EVault Disk to Disk Enterprise Backup
-26105 30GB EVault Disk to Disk Enterprise Backup
-29519 Windows Server 2008 Enterprise Edition SP2 (32bit)
-34185 Windows Server 2008 Enterprise Edition SP2 (64bit)
-31772 600GB SA-SCSI 15K RPM
-26109 1 Gbps Redundant Public & Private Network Uplinks
-37336 4 GB DDR3 1333
-37344 8 GB DDR3 1333
-25969 FreeBSD 9.x (64 bit)
-28959 750GB EVault Disk to Disk Enterprise Backup
-34183 0 GB Bandwidth
-31693 RAID 1
-33005 RAID 10
-27052 10 Mbps Private Network Uplink
 25422 Windows Server 2008 R2 Standard Edition (64bit)
-31062 3.00TB SATA III
-37370 64 GB DDR3 Registered 1333
-35310 Nessus Vulnerability Assessment & Reporting
-30396 CentOS 5.x (32 bit)
-27805 Windows Server 2008 Standard Edition SP2 (64bit)
-31531 Windows Server 2008 R2 Web Edition (64bit)
-37352 16 GB DDR3 Registered 1333
-24086 Ubuntu Linux 12.04 LTS Precise Pangolin (64 bit)
-29064 Red Hat Enterprise Linux - 5 (64 bit) (per-processor licensing)
-33740 Red Hat Enterprise Linux - 6 (32 bit) (per-processor licensing)
-37086 FreeBSD 10.x (64 bit)
-27426 500GB EVault Disk to Disk Enterprise Backup
-26340 /64 Block Static Public IPv6 Addresses
-25663 CentOS 6.x (64 bit)
-32082 International Services
-27572 FreeBSD 9.x (32 bit)
-30169 Red Hat Enterprise Linux - 6 (64 bit) (per-processor licensing)
-24695 100 Mbps Redundant Public & Private Network Uplinks
-28968 8 Public IP Addresses
-33867 20000 GB Bandwidth
+35529 800 GB SSD
+30046 175GB EVault Disk to Disk Enterprise Backup
+37316 Dual Processor Hex Core Xeon 2620 - 2.00GHz (Sandy Bridge) - 2 x 15MB cache
 23787 100 Mbps Private Network Uplink
-23777 1 Gbps Private Network Uplink
-33595 50GB EVault Disk to Disk Enterprise Backup
-29160 CentOS 6.x (32 bit)
-34594 1500GB EVault Disk to Disk Enterprise Backup
-32067 4.00TB SATA III
+27572 FreeBSD 9.x (32 bit)
+37336 4 GB DDR3 1333
+37360 32 GB Registered DDR3 1333
+37370 64 GB Registered DDR3 1333
+34183 0 GB Bandwidth
 37642 Ubuntu Linux 14.04 LTS Trusty Tahr (32 bit)
-37652 Ubuntu Linux 14.04 LTS Trusty Tahr (64 bit)
-24745 Unlimited Bandwidth (100 Mbps Uplink)
-33483 Unlimited SSL VPN Users & 1 PPTP VPN User per account
-28140 300GB SA-SCSI 10K RPM
-22609 CentOS 5.x (64 bit)
-32086 1.00TB SATA II
-25014 Reboot / KVM over IP
-32931 250GB EVault Disk to Disk Enterprise Backup
-28124 1000GB EVault Disk to Disk Enterprise Backup
-22816 Windows Server 2008 Web Edition SP2 (32bit)
-25727 Account Setup Fee
-33206 2000GB EVault Disk to Disk Enterprise Backup
+31772 600 GB SA-SCSI 15K RPM
+22829 10 Mbps Public & Private Network Uplinks
 24871 Windows Server 2008 R2 Enterprise Edition (64bit)
-24259 2.00TB SATA II
-30063 350GB EVault Disk to Disk Enterprise Backup
-37394 512 GB DDR3 Registered 1333
-29253 Debian GNU/Linux 7.x Wheezy/Stable (32 bit)
-35963 0 GB Bandwidth
-36215 Windows Server 2012 R2 Standard Edition (64 bit)
+29160 CentOS 6.x (32 bit)
+30728 4.00 TB SATA III
+22747 20GB EVault Disk to Disk Enterprise Backup
+34807 1 IP Address
+34594 1500GB EVault Disk to Disk Enterprise Backup
+27052 10 Mbps Private Network Uplink
+28968 8 Public IP Addresses
+31062 3.00 TB SATA III
+31531 Windows Server 2008 R2 Web Edition (64bit)
+24745 Unlimited Bandwidth (100 Mbps Uplink)
+37318 Single Processor Quad Core Xeon 1270 V3 - 3.50GHz  (Haswell) - 1 x 8MB
+25014 Reboot / KVM over IP
+37086 FreeBSD 10.x (64 bit)
+30169 Red Hat Enterprise Linux 6.x (64 bit) (per-processor licensing)
+37652 Ubuntu Linux 14.04 LTS Trusty Tahr (64 bit)
+22609 CentOS 5.x (64 bit)
+37378 128 GB Registered DDR3 1333
+33595 50GB EVault Disk to Disk Enterprise Backup
+31411 60GB EVault Disk to Disk Enterprise Backup
+25663 CentOS 6.x (64 bit)
+26737 100 Mbps Public & Private Network Uplinks
 36367 VMware ESXi 5.5
+37084 FreeBSD 10.x (32 bit)
+24259 2.00 TB SATA II
+37332 Single Processor Quad Core Xeon 1270 - 3.40GHz  (Sandy Bridge) - 1 x 8MB cache w/HT
+36215 Windows Server 2012 R2 Standard Edition (64 bit)
+23710 100GB EVault Disk to Disk Enterprise Backup
+25969 FreeBSD 9.x (64 bit)
+33740 Red Hat Enterprise Linux 6.x (32 bit) (per-processor licensing)
+22941 400 GB SSD
+37344 8 GB DDR3 1333
+26340 /64 Block Static Public IPv6 Addresses
+22949 Unlimited Bandwidth (10 Mbps Uplink)
+37352 16 GB Registered DDR3 1333
+30067 Red Hat Enterprise Linux 5.x (32 bit) (per-processor licensing)
+45524 300 GB SA-SCSI 15K RPM
+44992 CentOS 7.x (64 bit)
+32082 International Services
+35963 0 GB Bandwidth
+27426 500GB EVault Disk to Disk Enterprise Backup

@@ -8,14 +8,15 @@ require_once 'config.ini';
 
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Order', null, SLAPI_USER, SLAPI_KEY); 
 $my_order = new stdClass();
-$my_order->packageId = 50;
+$my_order->packageId = 200;
 $my_order->location  = 224092;
 $my_order->quantity  = 1;
-$my_order->imageTemplateGlobalIdentifier  = 'd8a12975-b1e2-4963-9a85-c9886953a851';
+$my_order->presetId  = 64;
+// $my_order->imageTemplateGlobalIdentifier  = 'd8a12975-b1e2-4963-9a85-c9886953a851';
 $my_order->hardware = array();
 $my_order->prices = array();
 $my_order->useHourlyPricing = true;
-$os_item_price = 30764; // WinDos2008R2, 31329 Debian 7 x86_64
+$os_item_price = 44992; // 44992 CentOS7_64, 31673 W2012 std 64
 
 for ($cnt = 0; $cnt < $my_order->quantity; $cnt++) {
   $domain = new stdClass();
@@ -24,17 +25,14 @@ for ($cnt = 0; $cnt < $my_order->quantity; $cnt++) {
   $my_order->hardware[] = $domain;
 }
 
-$item_price_ids = array(31728, // 4x 2Ghz 16G
-                        29372, // 250G SATAII
-                        27023, // Host ping
-                        33483, // SSL VPN
+$item_price_ids = array(37332, // 1xQuad Xeon 1270 3.4G 8M
+                        37344, // 8G
+                        32927, // Non-raid
                         24713, // 1GbE
-                        32627, // Auto notification
                         34183, // 0G
                         34807, // 1IP
-                        23070, // Remote Management 
-                        35310, // Nessus scanning
-                        32500, // Email and ticket notification
+                        33483, // SSL VPN
+                        25014, // Reboot/KVM 
                         );
 
 if (empty($my_order->imageTemplateGlobalIdentifier))
