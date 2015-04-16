@@ -13,7 +13,7 @@ DRY=$1
 for ((CNT=0; $CNT<$NBR_NODES; CNT++))
 do
   echo "Deploying node ${HOSTNAME}-$CNT"
-OUTPUT="sudo sl vs create --image=$IMAGE -c $CORE -D $DOMAIN -m $MEM --hourly -d $DATACENTER -n $NIC -H ${HOSTNAME}-$CNT"
+OUTPUT="sl vs create --image=$IMAGE -c $CORE -D $DOMAIN -m $MEM --hourly -d $DATACENTER -n $NIC -H ${HOSTNAME}-$CNT"
 # echo $OUTPUT
 if [ "$DRY" = "yes" ]; then
   echo $OUTPUT
