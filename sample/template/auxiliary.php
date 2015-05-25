@@ -20,11 +20,48 @@ function cci_order_helper($template, $provision)
     try {
       $orderClient = SoftLayer_SoapClient::getClient('SoftLayer_Product_Order', null, SLAPI_USER, SLAPI_KEY);
       $orderContainer = $client->generateOrderTemplate($template);
-      print_r($orderClient->verifyOrder($orderContainer));
+      $result = $orderClient->verifyOrder($orderContainer);
+      print_r($result);
+      echo "Hourly expense post tax $result->postTaxRecurringHourly\n";
     } catch (Exception $e) {
       die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
     }
   }
+}
+
+function bms_order_helper($template, $template_extra, $provision)
+{
+  if (empty($template) || empty($template_extra)) {
+    echo "Empty configuration template\n";
+    exit(1);
+  }
+  $client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Order', null, SLAPI_USER, SLAPI_KEY);
+  $cmd = 'yes' == $provision ? 'placeOrder' : 'verifyOrder';
+
+  for ($cnt = 0; $cnt < $template->quantity; $cnt++) {
+    $domain = new stdClass();
+    $domain->hostname = "$template_extra->hostname-$cnt";
+    $domain->domain = $template_extra->domain;
+    $template->hardware[] = $domain;
+  }
+  
+  if (empty($template->imageTemplateGlobalIdentifier))
+    $template_extra->price_id[] = $template_extra->os;
+
+  foreach ($template_extra->price_id as $id) {
+    $price = new stdClass();
+    $price->id = $id;
+    $template->prices[] = $price;
+  }
+
+  try {
+    $result = $client->$cmd($template);
+    print_r($result);
+    echo "Hourly expense post tax $result->postTaxRecurringHourly\n";
+  } catch (Exception $e) {
+    die('Oops! Something went wrong: ' . $e->getMessage() . "\n");
+  }
+  echo shell_exec('date');
 }
 
 ?>
