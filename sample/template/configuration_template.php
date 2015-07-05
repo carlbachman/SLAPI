@@ -52,7 +52,9 @@ $cci_win_small->domain = 'softlayer-singapore-test.com';
 $cci_win_small->startCpus = 1;
 $cci_win_small->maxMemory = 4096;
 $cci_win_small->hourlyBillingFlag = true;
-$cci_win_small->operatingSystemReferenceCode = 'WIN_2008-STD-R2_64';
+$cci_win_small->operatingSystemReferenceCode = 'WIN_2008-STD-SP2_64';
+$cci_win_small->blockDevices[0]['device'] = 0;
+$cci_win_small->blockDevices[0]['diskImage']['capacity'] = 100;
 $cci_win_small->localDiskFlag = false;
 $cci_win_small->networkComponents[0]['maxSpeed'] = 100;
 
@@ -63,7 +65,9 @@ $cci_win_medium->domain = 'softlayer-singapore-test.com';
 $cci_win_medium->startCpus = 2;
 $cci_win_medium->maxMemory = 8192;
 $cci_win_medium->hourlyBillingFlag = true;
-$cci_win_medium->operatingSystemReferenceCode = 'WIN_2008-STD-R2_64';
+$cci_win_medium->operatingSystemReferenceCode = 'WIN_2008-STD-SP2_64';
+$cci_win_medium->blockDevices[0]['device'] = 0;
+$cci_win_medium->blockDevices[0]['diskImage']['capacity'] = 100;
 $cci_win_medium->localDiskFlag = false;
 $cci_win_medium->networkComponents[0]['maxSpeed'] = 1000;
 
@@ -74,7 +78,9 @@ $cci_win_large->domain = 'softlayer-singapore-test.com';
 $cci_win_large->startCpus = 4;
 $cci_win_large->maxMemory = 16384;
 $cci_win_large->hourlyBillingFlag = true;
-$cci_win_large->operatingSystemReferenceCode = 'WIN_2008-STD-R2_64';
+$cci_win_large->operatingSystemReferenceCode = 'WIN_2008-STD-SP2_64';
+$cci_win_large->blockDevices[0]['device'] = 0;
+$cci_win_large->blockDevices[0]['diskImage']['capacity'] = 100;
 $cci_win_large->localDiskFlag = false;
 $cci_win_large->networkComponents[0]['maxSpeed'] = 1000;
 
