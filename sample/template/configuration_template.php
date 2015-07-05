@@ -216,4 +216,32 @@ $bms_win_large_extra->price_id = array(37302, // Dual Octo Xeon 2650 2G 2x20M
                                        25014, // Reboot/KVM 
                                        );
 
+/**
+ *
+ *   VGA 
+ *
+ */
+
+$vga_small = new stdClass();
+$vga_small_extra = new stdClass();
+$vga_small->packageId = 174;
+$vga_small->location  = 224092;
+$vga_small->quantity  = 1;
+$vga_small_extra->os = 36043;
+$vga_small_extra->hostname = 'foo-vga-small';
+$vga_small_extra->domain = 'softlayer-singapore-test.com';
+$vga_small_extra->price_id = array(27778, // Single Quad Xeon 1270 3.4G 8M
+                                   25550, // 4G
+                                   36037, // Raid
+                                   //31693, // Raid 1
+                                   27537, // 500G
+                                   33195, // 500G
+                                   24713, // 1GbE
+                                   33867, // 20T
+                                   34807, // 1IP
+                                   34241, // Ping/TCP Mon
+                                   32627, // Notification 
+                                   );
+
+
 ?>
