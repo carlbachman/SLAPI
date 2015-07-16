@@ -9,7 +9,6 @@ require_once 'config.ini';
 $package_id = !empty($argv[1]) ? $argv[1] : 46;
 
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Package', $package_id, SLAPI_USER, SLAPI_KEY);
-// $client = SoftLayer_SoapClient::getClient('SoftLayer_Product_Package', 174, SLAPI_USER, SLAPI_KEY);
 $object_mask = "mask[id, hourlyRecurringFee, recurringFee, item[description]]";
 
 echo "[ITEM PRICES]\n\n";
