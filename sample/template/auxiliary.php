@@ -91,11 +91,14 @@ function vga_order_helper($template, $template_extra, $provision)
     $price->id = $id;
     $template->prices[] = $price;
   }
-$my_template->orderContainers->prices = $template->prices;
-$my_template->orderContainers->hardware = $template->hardware;
-$my_template->orderContainers->quantity = $template->quantity;
-$my_template->orderContainers->location = $template->location;
-$my_template->orderContainers->packageId = $template->packageId;
+$my_template->orderContainers = array();
+$my_template->orderContainers[0] = new stdClass();
+$my_template->orderContainers[0]->prices = $template->prices;
+$my_template->orderContainers[0]->hardware = $template->hardware;
+$my_template->orderContainers[0]->quantity = $template->quantity;
+$my_template->orderContainers[0]->location = $template->location;
+$my_template->orderContainers[0]->packageId = $template->packageId;
+$my_template->orderContainers[0]->containerIdentifier = $template->containerIdentifier;
 
   try {
     $result = $client->$cmd($my_template);
