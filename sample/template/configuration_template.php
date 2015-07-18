@@ -236,17 +236,22 @@ $vga_small->quantity  = 1;
 $vga_small_extra->os = 36043;
 $vga_small_extra->hostname = 'foo-vga-small';
 $vga_small_extra->domain = 'softlayer-singapore-test.com';
-$vga_small_extra->price_id = array(27778, // Single Quad Xeon 1270 3.4G 8M
+$vga_small_extra->price_id = array(81139, // Single Quad Xeon 1270 3.4G 8M
                                    25550, // 4G
                                    36037, // Raid
                                    //31693, // Raid 1
-                                   27537, // 500G
-                                   33195, // 500G
-                                   24713, // 1GbE
+                                   91869, // 500G
+                                   //33195, // 500G
+                                   96831, // 1GbE
                                    33867, // 20T
                                    34807, // 1IP
-                                   34241, // Ping/TCP Mon
-                                   32627, // Notification 
+                                   80269, // Ping/TCP Mon
+                                   32500, // Notification 
+                                   80289, // Automated Reboot from Monitoring
+                                   33483, // SSL VPN
+                                   35310, // Nessus
+                                   25014, // KVM over IP
+                                   29403, // 1IPv6
                                    );
 
 

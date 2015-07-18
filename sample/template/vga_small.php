@@ -8,6 +8,6 @@ require_once 'config.ini';
 require_once 'configuration_template.php'; 
 require_once 'auxiliary.php'; 
 
-bms_order_helper($vga_small, $vga_small_extra, $argv[1]);
+vga_order_helper($vga_small, $vga_small_extra, $argv[1]);
 
 ?>
